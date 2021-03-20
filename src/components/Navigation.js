@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 const NavItem = props => {
     const pageURI = window.location.pathname+window.location.search
