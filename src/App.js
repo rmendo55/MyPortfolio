@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <Navigation />
-      <img src="../homeImage4.jpg" className="img-fluid" alt="Responsive image"/>
     </div>
   );
 }
