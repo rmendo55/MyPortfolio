@@ -1,7 +1,61 @@
 body {
-  overflow: hidden;
-}
-img {
-  width: 100%;
+  background-color: black;
 }
 
+/*nav styles: start here */
+.nav-link {
+  transition: opacity 200ms ease-in-out;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #040404;
+  overflow: hidden;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin-top: 2px;
+  border-radius: 2px;
+  background: #040404;
+  transition: width 200ms ease-in-out;
+}
+
+.active-nav-item > a::after,
+.nav-link:hover::after {
+  width: 100%;
+}
+.navbar {
+  background-color: #ff4754;
+}
+.navbar-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar-toggler {
+  border: 1px solid black;
+}
+.navbar-toggler-icon {
+  height: 2px;
+}
+.nav-link:hover {
+  color: black;
+}
+.active-nav-item > a {
+  color: white;
+}
+.custom-toggler.navbar-toggler {
+  border-color: black;
+} 
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+}
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+/*nav styles: end here */
