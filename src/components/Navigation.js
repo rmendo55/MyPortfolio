@@ -17,12 +17,12 @@ const NavItem = props => {
 
 function Navigation() {
   return(
-      <nav className="navbar navbar-expand-lg py-4 fixed-top">
+      <nav className="navbar navbar-expand-lg py-4">
         <span className="navbar-text px-4">RAFAEL MENDOZA</span>
         <button className="navbar-toggler ml-auto custom-toggler" data-toggle="collapse" data-target="#collapse_target" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="line"></span> 
-          <span class="line"></span> 
-          <span class="line" style={{marginBottom: "0"}}></span>
+          <span className="line"></span> 
+          <span className="line"></span> 
+          <span className="line" style={{marginBottom: "0"}}></span>
         </button>
         <div className="collapse navbar-collapse" id="collapse_target">
         <ul className="navbar-nav ml-auto px-2">
