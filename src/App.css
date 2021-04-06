@@ -1,5 +1,6 @@
 body {
-  background-color: black;
+  /* background-color: black; */
+  margin: 0;
 }
 
 /*nav styles: start here */
@@ -25,9 +26,6 @@ body {
 .nav-link:hover::after {
   width: 100%;
 }
-.navbar {
-  background-color: #ff4754;
-}
 .navbar-text {
   font-size: 1rem;
   font-weight: 600;
@@ -40,9 +38,6 @@ body {
 }
 .nav-link:hover {
   color: black;
-}
-.active-nav-item > a {
-  color: white;
 }
 .custom-toggler.navbar-toggler {
   border-color: black;
@@ -59,3 +54,40 @@ body {
   margin-bottom: 5px;
 }
 /*nav styles: end here */
+/*Home nav styles: start here */
+#home-img {
+  width: 50%;
+}
+#intro-txt {
+  margin-top: 10%;
+}
+#home-container > div {
+  padding: 1rem;
+  text-align: center;
+}
+.intro-img {
+  animation: right_to_left 3s ease;
+}
+
+#intro-txt {
+  animation: left_to_right 3s ease;
+}
+
+@keyframes right_to_left {
+  from {
+    margin-right: 80%;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+
+@keyframes left_to_right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+/*Home nav styles: end here */
