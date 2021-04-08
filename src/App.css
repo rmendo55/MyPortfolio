@@ -1,6 +1,7 @@
 body {
-  /* background-color: black; */
   margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 /*nav styles: start here */
@@ -62,7 +63,7 @@ body {
   margin-top: 10%;
 }
 #home-container > div {
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
 }
 .intro-img {
@@ -91,3 +92,17 @@ body {
   }
 }
 /*Home nav styles: end here */
+/*Footer nav styles: start here */
+#footer-col1, #footer-col2 {
+  margin-top: 3rem;
+}
+.page-footer {
+  background-color: black;
+}
+li, #footer-header {
+  color: white;
+}
+i:hover {
+  opacity: 70%;
+}
+/*Footer nav styles: End here */
