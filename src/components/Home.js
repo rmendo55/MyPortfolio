@@ -2,13 +2,13 @@ import React from 'react'
 
 function Home() {
     return (
-        <div className="container my-4" id="home-container">
-            <div className="float-lg-left" id="intro-txt">
-                <h3>Hello! I'm Rafael Mendoza <br/>Welcome to my website</h3>
-                <h4>I am a Software Engineer & <br/> Quality Assurance Engineer</h4>
+        <div className="home-container">
+            <div className="home-txt-container">
+                <h3>Hello! I'm Rafael Mendoza Welcome to my website</h3>
+                <h4>I am a Software Engineer & Quality Assurance Engineer</h4>
             </div>
-            <div className="float-lg-right" className="intro-img">
-            <img src="homeImg2.png"  alt="Home image" id="home-img"/>
+            <div className="home-img-container">
+                <img src="homeImg2.png"  alt="Home image" className="home-img"/>
             </div>
         </div>
     )

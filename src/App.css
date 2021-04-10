@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 /*nav styles: start here */
@@ -56,39 +55,38 @@ body {
 }
 /*nav styles: end here */
 /*Home nav styles: start here */
-#home-img {
+.home-container, .about-container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.home-container > div {
   width: 50%;
 }
-#intro-txt {
-  margin-top: 10%;
+.home-img {
+  width: 100%;
 }
-#home-container > div {
-  padding: 2rem;
-  text-align: center;
-}
-.intro-img {
+.home-img-container {
   animation: right_to_left 3s ease;
 }
-
-#intro-txt {
+.home-txt-container {
   animation: left_to_right 3s ease;
 }
-
 @keyframes right_to_left {
   from {
-    margin-right: 80%;
+    transform: translateX(150%);
   }
   to {
-    margin-right: 0;
+    transform: translateX(0);
   }
 }
-
 @keyframes left_to_right {
   from {
-    margin-left: -100%;
+    transform: translateX(-150%);
   }
   to {
-    margin-left: 0;
+    transform: translateX(0);
   }
 }
 /*Home nav styles: end here */
@@ -106,3 +104,11 @@ i:hover {
   opacity: 70%;
 }
 /*Footer nav styles: End here */
+/*About nav styles: Start here */
+.about-container {
+  justify-content: center;
+}
+.about-header {
+  border-bottom: 4px solid blue;
+}
+/*About nav styles: End here */

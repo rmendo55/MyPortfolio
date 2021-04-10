@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Footer from './components/Footer'
+import About from './components/About'
 import "./App.css"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Navigation />
       <Home />
+      <About />
       <Footer />
     </div>
   );
