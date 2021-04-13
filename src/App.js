@@ -3,6 +3,7 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Footer from './components/Footer'
 import About from './components/About'
+import Projects from './components/Projects'
 import "./App.css"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <Home />
       <About />
+      <Projects />
       <Footer />
     </div>
   );

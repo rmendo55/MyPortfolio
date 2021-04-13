@@ -1,27 +1,28 @@
 import React from 'react'
+import Header from './Header'
 
 function About() {
     return(
-        // <div className="container">
-        //     <div className="row">
-        //         <div className="col">
-        //             <h1 style={{textAlign: "center"}}>About</h1>
-        //             <hr className="bg-success mb-4 mt-0 d-inline-block mx-auto" style={{width:"100%", height:"2px"}}/>
-        //         </div>
-        //     </div>
-        //     <div className="row justify-content-end" id="csula-apple-row">
-        //         <div className="col-md-6 offset-md-2" id="csula-img-column">
-        //             <img src="csula.jpg" alt="csula" id="csula-img"/>
-        //         </div>
-        //         <div className="col">
-        //             {/* <i className="fab fa-apple" style={{pointerEvents: "none"}} id="apple-icon"></i> */}
-        //             <img src="apple.png" alt="csula" id="apple-img"/>
-        //         </div>
-        //     </div>
-        // </div>
         <div className="about-container">
-            <div className="about-header">
-                <h1>About</h1>
+            <Header title="About"/>
+            <div className="about-main-container">
+                <div className="left-side">
+                    <div className="about-img-container">
+                        <img src="apple.png"  alt="Apple image" className="about-img"/>
+                    </div>
+                    <div className="about-img-container">
+                        <img src="csula.png"  alt="Csula image" className="about-img"/>
+                    </div>
+                </div>
+                <div className="right-side">
+                    <p className="about-paragraph">I am a first generation to go to college and I am a student at California State University, Los Angeles.
+                        My expected graduation is May 29, 2021. Throught my time in college I have been working with
+                        many technologies and have been working in different Software Engineering projects such as: Web Development,
+                        Mobile Development, Machine Learning, Computer Vision and Desktop Applications. I am very passionate about my work
+                        and I love Computer Science. After my graduation I will be working at Apple as A Quality Engineer. Very excited to
+                        start my career.
+                    </p>
+                </div>
             </div>
         </div>
     )
