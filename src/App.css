@@ -108,6 +108,7 @@ i:hover {
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 5%;
 }
 .about-main-container {
   display: flex;
@@ -138,6 +139,9 @@ i:hover {
 }
 /*About nav styles: End here */
 /*project nav styles: Start here */
+.projects {
+  margin-top: 5%;
+}
 .thumbnail-container {
   margin-top: 3%;
   justify-content: center;
