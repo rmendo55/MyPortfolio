@@ -18,7 +18,11 @@ const NavItem = props => {
 function Navigation() {
   return(
       <nav className="navbar navbar-expand-lg py-4">
-        <span className="navbar-text px-4">RAFAEL MENDOZA</span>
+        <span className="navbar-text px-4">RAFAEL MENDOZA </span>
+        <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+        </label>
         <button className="navbar-toggler ml-auto custom-toggler" data-toggle="collapse" data-target="#collapse_target" aria-expanded="false" aria-label="Toggle navigation">
           <span className="line"></span> 
           <span className="line"></span> 
