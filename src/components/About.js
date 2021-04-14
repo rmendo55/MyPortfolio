@@ -8,10 +8,10 @@ function About() {
             <div className="about-main-container">
                 <div className="left-side">
                     <div className="about-img-container">
-                        <img src="apple.png"  alt="Apple image" className="about-img"/>
+                        <img src="myimages/apple.png"  alt="Apple image" className="about-img"/>
                     </div>
                     <div className="about-img-container">
-                        <img src="csula.png"  alt="Csula image" className="about-img"/>
+                        <img src="myimages/csula.png"  alt="Csula image" className="about-img"/>
                     </div>
                 </div>
                 <div className="right-side">

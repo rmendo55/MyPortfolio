@@ -120,8 +120,8 @@ i:hover {
   margin: 0 auto;
 }
 .about-img {
-  width: 7vw;
-  height: 7vw;
+  width: 9vw;
+  height: 9vw;
 }
 .header-title {
   font-size: 5vw;
@@ -139,7 +139,6 @@ i:hover {
   padding: 10% 0;
 }
 .about-paragraph {
-  /* font-size: 1.2rem; */
   font-size: 2vw;
 }
 /*About nav styles: End here */
@@ -155,10 +154,7 @@ i:hover {
 #view-btn {
   margin-right: 1%;
 }
-.thumbnail-content {
-  margin-right: 1%;
-}
-@media (max-width: 1365px) {
+/* @media (max-width: 1365px) {
   .thumbnail-container {
     flex-direction: column;
     align-items: center;
@@ -167,5 +163,5 @@ i:hover {
   .thumbnail-content {
     margin: 1% 0 0 3%;
   }
-}
+} */
 /*project nav styles: End here */

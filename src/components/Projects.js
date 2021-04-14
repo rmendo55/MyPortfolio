@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 
 function Projects() {
     useEffect(() => {
-        Aos.init({duration: 3000});
+        Aos.init({duration: 2000});
     }, []);
     return(
         <div className="projects">
@@ -16,7 +16,7 @@ function Projects() {
              <div className="thumbnail-container">
                  <div data-aos="fade-right" className="thumbnail-content">
                     <Thumbnail 
-                    src="main_page.png" 
+                    src="myimages/main_page.png" 
                     alt="Fusion Colors Main" 
                     label="Fusion Colors Database"
                     description="Register incoming car parts for Fusion Colors located at Santa Maria, CA. 
@@ -25,7 +25,7 @@ function Projects() {
                  </div>
                  <div data-aos="fade-up" className="thumbnail-content">
                     <Thumbnail 
-                    src="job_search_main.png" 
+                    src="myimages/job_search_main.png" 
                     alt="Job Search Main" 
                     label="Job Search"
                     description="Develop a web application that allows a user to search for jobs and 
@@ -34,7 +34,7 @@ function Projects() {
                  </div>
                  <div data-aos="fade-left" className="thumbnail-content">
                     <Thumbnail 
-                    src="sort_algo_graph.png" 
+                    src="myimages/sort_algo_graph.png" 
                     alt="Sorting Algorithm Main" 
                     label="Sorting Algorithm Comparison"
                     description="Develop a program that implements different sorting algorithms and 
@@ -45,7 +45,7 @@ function Projects() {
              <div className="thumbnail-container">
                 <div data-aos="fade-right" className="thumbnail-content">
                     <Thumbnail 
-                    src="memory_game.PNG" 
+                    src="myimages/memorygame.png" 
                     alt="Memory Game Main" 
                     label="Memory Game"
                     description="Developed a single player version JavaFx game where user is to turn 
@@ -54,7 +54,7 @@ function Projects() {
                 </div>
                  <div data-aos="fade-left" className="thumbnail-content">
                         <Thumbnail 
-                        src="maze_path.PNG" 
+                        src="myimages/mazepath.png" 
                         alt="Stack Maze Solver Main" 
                         label="Stack Maze Solver"
                         description="Implemented a maze solver program that utilizes a stack."
