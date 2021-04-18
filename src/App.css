@@ -108,7 +108,6 @@ i:hover {
 .about-container {
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 2%;
 }
 .about-main-container {
   display: flex;
@@ -145,7 +144,7 @@ i:hover {
 /*About nav styles: End here */
 /*project nav styles: Start here */
 .projects {
-  margin-top: 2%;
+  margin-top: 4%;
 }
 .thumbnail-container {
   margin-top: 3%;
@@ -155,7 +154,20 @@ i:hover {
 #view-btn {
   margin-right: 1%;
 }
-@media (max-width: 1365px) {
+.card-title {
+  height: 3vw;
+}
+.card-txt {
+  height: 8vw;
+}
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+}
+.card {
+  width: 25vw;
+}
+@media screen and (max-width: 980px) {
   .thumbnail-container {
     flex-direction: column;
     align-items: center;
@@ -163,6 +175,9 @@ i:hover {
   }
   .thumbnail-content {
     margin: 1% 0 0 3%;
+  }
+  .card {
+    width: 40vw;
   }
 }
 /*project nav styles: End here */
