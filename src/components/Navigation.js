@@ -4,7 +4,6 @@ const NavItem = props => {
     const pageURI = window.location.pathname+window.location.search
     const liClassName = (props.path === pageURI) ? "nav-item active-nav-item" : "nav-item";
     const aClassName = props.disabled ? "nav-link disabled" : "px-5 nav-link"
-    console.log(aClassName);
     return (
       <li className={liClassName}>
             <a href={props.path} className={aClassName}>
@@ -19,10 +18,6 @@ function Navigation() {
   return(
       <nav className="navbar navbar-expand-lg py-4">
         <span className="navbar-text px-4">RAFAEL MENDOZA </span>
-        <label class="switch">
-            <input type="checkbox" />
-            <span class="slider"></span>
-        </label>
         <button className="navbar-toggler ml-auto custom-toggler" data-toggle="collapse" data-target="#collapse_target" aria-expanded="false" aria-label="Toggle navigation">
           <span className="line"></span> 
           <span className="line"></span> 

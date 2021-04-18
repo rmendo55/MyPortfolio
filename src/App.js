@@ -9,12 +9,11 @@ import "./App.css"
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {}
   }
 
   render() {
     return (
-      <div>
+      <div >
         <Navigation />
         <Home />
         <About />
