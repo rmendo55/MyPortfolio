@@ -66,6 +66,7 @@ body {
 }
 .home-img {
   width: 100%;
+  height: auto;
 }
 .home-img-container {
   animation: right_to_left 1.5s ease;
@@ -106,7 +107,7 @@ i:hover {
 /*Footer nav styles: End here */
 /*About nav styles: Start here */
 .about-container {
-  max-width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .about-main-container {
@@ -120,8 +121,8 @@ i:hover {
   text-align: center;
 }
 .about-img {
-  width: 9vw;
-  height: 9vw;
+  width: 200px;
+  height: 200px;
 }
 .header-title {
   font-size: 5vw;
@@ -139,12 +140,13 @@ i:hover {
   padding: 10% 0;
 }
 .about-paragraph {
-  font-size: 2vw;
+  font-size: 28px;
 }
 /*About nav styles: End here */
 /*project nav styles: Start here */
 .projects {
   max-width: 1200px;
+  margin-top: 4%;
   margin: 0 auto;
 }
 .thumbnail-container {
@@ -153,10 +155,10 @@ i:hover {
   display: flex;
 }
 #view-btn {
-  margin-right: 1%;
+  margin-right: 10px;
 }
 .card-title {
-  /* height: 10px; */
+  text-align: center;
 }
 .card-txt {
   height: 120px;
@@ -169,17 +171,116 @@ i:hover {
   height: 480px;
   width: 400px;
 }
-.card-body {
-  max-height: 500px;
-}
 .view-button {
   font-size: 15px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
+  .card-title {
+    height: 53px
+  }
+  .card-txt {
+    height: 130px;
+  }
+  .card {
+    height: 520px;
+    width: 370px;
+  }
+  .about-img {
+    width: 180px;
+    height: 180px;
+  }
+  .about-paragraph {
+    font-size: 24px;
+  }
+  .home-txt1 {
+    font-size: 40px;
+  }
+  .home-txt2 {
+    font-size:30px;
+  }
+}
+@media screen and (max-width: 1110px) {
   .thumbnail-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .card-title {
+    height: 80px
+  }
+  .card-txt {
+    height: 100px;
+  }
+  .card {
+    margin-top: 2%;
+    height: 510px;
+    width: 400px
+  }
+  .about-img {
+    width: 160px;
+    height: 160px;
+  }
+  .about-paragraph {
+    font-size: 20px;
+  }
+  .home-txt1 {
+    font-size: 34px;
+  }
+  .home-txt2 {
+    font-size:24px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about-img {
+    width: 140px;
+    height: 140px;
+  }
+  .about-paragraph {
+    font-size: 18px;
+  }
+  .home-txt1 {
+    font-size: 29px;
+  }
+  .home-txt2 {
+    font-size:19px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .about-img {
+    width: 130px;
+    height: 130px;
+  }
+  .about-paragraph {
+    font-size: 17px;
+  }
+  .home-txt1 {
+    font-size: 24px;
+  }
+  .home-txt2 {
+    font-size:15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-txt1 {
+    font-size: 18px;
+  }
+  .home-txt2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-img {
+    width: 100px;
+    height: 100px;
+  }
+  .about-paragraph {
+    font-size: 14px;
+  }
+  .home-txt1 {
+    font-size: 17px;
+  }
+  .home-txt2 {
+    font-size: 14px;
   }
 }
 /*project nav styles: End here */
