@@ -13,7 +13,7 @@ function Thumbnail(props) {
                 </div>
                 <div className="project-buttons">
                     <a href="#" className="btn btn-primary view-button" id="view-btn">View</a>
-                    <a href="#" className="btn btn-primary view-button" id="view-btn">View Code</a>
+                    <a href={props.srcCode} className="btn btn-primary view-button" id="view-btn">View Code</a>
                 </div>
             </div>
         </div>
