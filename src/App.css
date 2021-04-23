@@ -276,6 +276,13 @@ i:hover {
   .about-paragraph {
     font-size: 14px;
   }
+  .card-txt {
+    height: 110px;
+  }
+  .card {
+    height: 520px;
+    width: 340px
+  }
   .home-txt1 {
     font-size: 17px;
   }
