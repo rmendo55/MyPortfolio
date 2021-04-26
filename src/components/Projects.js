@@ -18,8 +18,7 @@ function Projects() {
                         src="myimages/main_page.png"
                         alt="Fusion Colors Main"
                         label="Fusion Colors Database"
-                        description="Register incoming car parts for Fusion Colors located at Santa Maria, CA.
-                        Can search, delete, upload images, and update inventory."
+                        description="Register incoming car parts for Fusion Colors located at Santa Maria, CA. Can search, delete, upload images, and update inventory."
                         srcCode="https://github.com/rmendo55/Projects/tree/master/src/fusion_colors"
                         />
                     </div>
@@ -28,8 +27,7 @@ function Projects() {
                         src="myimages/job_search_main.png"
                         alt="Job Search Main"
                         label="Job Search"
-                        description="Develop a web application that allows a user to search for jobs and
-                        view all jobs related to that job search. Used a public API."
+                        description="Develop a web application that allows a user to search for jobs and view all jobs related to that job search. Used a public API."
                         srcCode="https://github.com/rmendo55/JavaScript/tree/master/jobSearchVueApp"
                         />
                     </div>
@@ -38,8 +36,7 @@ function Projects() {
                         src="myimages/sort_algo_graph.png"
                         alt="Sorting Algorithm Main"
                         label="Sorting Algorithm Comparison"
-                        description="Develop a program that implements different sorting algorithms and
-                        then compares all sorting algorithms on different sets of data."
+                        description="Develop a program that implements different sorting algorithms and then compares all sorting algorithms on different sets of data."
                         srcCode="https://github.com/rmendo55/Projects/tree/master/src/sortingalgorithms"
                         />
                     </div>
@@ -50,8 +47,7 @@ function Projects() {
                         src="myimages/memorygame.png"
                         alt="Memory Game Main"
                         label="Memory Game"
-                        description="Developed a single player version JavaFx game where user is to turn
-                        over pairs of matching cards."
+                        description="Developed a single player version JavaFx game where user is to turnover pairs of matching cards."
                         srcCode="https://github.com/rmendo55/Projects/tree/master/src/memory_game"
                         />
                     </div>
