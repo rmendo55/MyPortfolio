@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return(
-        <footer className="page-footer">
+        <footer className="page-footer" id="Contact">
             <div className="container text-center text-md-left mt-5">
                 <div className="row">
                     <div className="col-md-4 max-auto mb-4" id="footer-col1">

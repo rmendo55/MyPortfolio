@@ -1,15 +1,19 @@
 import React from 'react'
+import {Anchor} from 'antd'
+const {Link} = Anchor;
 
 const NavItem = props => {
+    let linkString = "#" + props.name;
     const pageURI = window.location.pathname+window.location.search
+    console.log(`pageURI: ${pageURI}`);
     const liClassName = (props.path === pageURI) ? "nav-item active-nav-item" : "nav-item";
     const aClassName = props.disabled ? "nav-link disabled" : "px-5 nav-link"
     return (
       <li className={liClassName}>
-            <a href={props.path} className={aClassName}>
-              {props.name}
-              {(props.path === pageURI) ? (<span className="sr-only">(current)</span>) : ''}
-            </a>
+        <a href={linkString} className={aClassName}> 
+          {props.name}
+          {(props.path === pageURI) ? (<span className="sr-only">(current)</span>) : ''}
+        </a>
       </li>
     );
 }
@@ -26,9 +30,10 @@ function Navigation() {
         <div className="collapse navbar-collapse" id="collapse_target">
         <ul className="navbar-nav ml-auto px-2">
                 <NavItem path="/" name="Home" />
-                <NavItem path="/page2" name="About" />
-                <NavItem path="/page3" name="Projects" />
-                <NavItem path="/page4" name="Resume" />
+                <NavItem path="/About" name="About" />
+                <NavItem path="/Projects" name="Projects" />
+                <NavItem path="/Contacts" name="Contact" />
+                <NavItem path="/Resume" name="Resume" />
         </ul>
         </div>
       </nav>
