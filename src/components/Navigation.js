@@ -30,6 +30,7 @@ function Navigation() {
                 <NavItem path="/" name="Home" />
                 <NavItem path="/About" name="About" />
                 <NavItem path="/Projects" name="Projects" />
+                <NavItem path="/Skills" name="Skills" />
                 <NavItem path="/Contacts" name="Contact" />
                 <NavItem path="/Resume" name="Resume" />
         </ul>
