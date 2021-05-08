@@ -20,7 +20,7 @@ class App extends React.Component {
         <Home />
         <About />
         <Projects />
-        <Header title="Skills"/>
+        <Header title="Skills" name="Skills"/>
         <ImgContainer />
         <Footer />
       </div>
