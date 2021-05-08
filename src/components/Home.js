@@ -8,7 +8,7 @@ function Home() {
                 <h4 className="home-txt2">I am a Software Engineer & Quality Assurance Engineer</h4>
             </div>
             <div className="home-img-container">
-                <img src="myimages/homeImage2.png"  alt="Home image" className="home-img"/>
+                <img src="myimages/homeImg2.png"  alt="Home image" className="home-img"/>
             </div>
         </div>
     )
