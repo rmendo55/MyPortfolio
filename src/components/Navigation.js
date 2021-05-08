@@ -1,6 +1,4 @@
 import React from 'react'
-import {Anchor} from 'antd'
-const {Link} = Anchor;
 
 const NavItem = props => {
     let linkString = "#" + props.name;
