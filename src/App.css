@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -316,5 +319,4 @@ i:hover {
   width: 180px;
   height: 180px;
 }
-
 /*Img Container nav styles: End here */
